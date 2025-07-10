@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Andika, sans-serif;
+}
+
+.hero{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 3px 10%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 300px;
+    }
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+header {
+    height: 6em;
+    background: linear-gradient(to right, MediumPurple, MediumSlateBlue, DeepSkyBlue);
+}
+.buttons {
+    background: #fa7e2b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    margin: 10px 15px;
+    font-size: 14px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    border-top-right-radius: 30px;
+}
+
+.look-now-cta-btn{
+    font-weight: 800;
+    font-size: 25px;
+    margin: 40px 0px;
+    padding: 1.2rem 6rem;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    transition: 0.5s;
+}
+
+.look-now-cta-btn:hover{
+    border-top-left-radius: 30px;
+
+}
+.intro {
+    font-weight: 800;
+    text-align: left;
+    padding: 5rem 40rem 1rem 1rem;
+    padding: top;
+} 
+
+h2 {
+    font-size: 40px;
+    line-height: 1;
+    color: MediumSlateBlue;
+}
+
+.intro h1{
+    font-size: 70px;
+    line-height: 2;
+    color: MediumSlateBlue;
+    animation-delay: 0.5s;
+}
+
+.intro h3{
+    font-size: 23px;
+    line-height: 1;
+    color: MediumSlateBlue;
+    animation-delay: 0.7s;
+}
+
+.hero .ahsoka{
+    padding: top;
+    padding: 3rem 3rem 3 rem 0rem;
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    animation-delay: 0.5s;
+}
+
+#orange_nav{
+    width: 100%;
+    background: linear-gradient(135deg, #FF8626, #FFB858);
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(40px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+    opacity: 1;
+    transform: translateY(0px);}
+}
+
+.video-block { padding: 2rem; text-align: left; }.
+    iframe { width: 100%; max-width: 800px; height: 450px; } (16:9 aspect ratio).
